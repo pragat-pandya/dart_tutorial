@@ -1,0 +1,39 @@
+Why dart?
+    - Just in time compilation in dev
+    - Ahead of time compilation in production
+    - Like Java and JavaScript
+
+Comments
+    - // : Single Line
+    - /// : Documentation Comments
+    - /**/ : Multiline
+
+Variables
+    DATATYPES:
+        - double 
+        - int
+        - String --> "${var.code}" interpolation and "$var"
+                 --> Multiline Strings """String"""
+        - bool
+    VAR
+        - Initialization inferred types.
+        - Allows reuse of single variable with different premitive types
+    FINAL:: runtime constant
+        - Final variables only be set once in its lifetime
+    CONST:: compile time constant
+        - Canot be assigned a value unless in declaration statements
+    NULLABLE VARIABLES:
+        -Syntax
+            <dtype>? <varName> = null;
+            ?. ---> to access properties of a nullable variable
+        
+        ?? ---> print($abc ?? 1): prints 1 if abc is null
+
+If Conditions 
+    -If
+    -IfElse
+    -IfElseIfElse
+    -Ternary Operator (? : ;)
+    -Switch Statements
+        Breaks required only for empty cases *****
+        switch parameter "when" allows combining logical operators
